@@ -1,0 +1,13 @@
+
+region = "us-west-1"
+environment = "Development"
+vpc_cidr = "172.20.0.0/16"
+public_subnet_1_cidr  = "172.20.1.0/24"
+public_subnet_2_cidr  = "172.20.2.0/24"
+public_subnet_3_cidr  = "172.20.3.0/24"
+private_subnet_1_cidr = "172.20.10.0/24"
+private_subnet_2_cidr = "172.20.11.0/24"
+private_subnet_3_cidr = "172.20.12.0/24"
+instance_type = "t2.micro"
+instance_ami = "ami-0c6b1d09930fac512"
+keyname = "tfuser"
